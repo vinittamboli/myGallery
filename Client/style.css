@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.auth {
+    margin-top: 20px;
+}
+
+.auth form {
+    margin-bottom: 20px;
+}
+
+.auth input {
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+}
+
+.auth button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
